@@ -1,9 +1,9 @@
-import React from 'react';
+import {Button} from "@chakra-ui/react";
 import './App.css';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <Button>Hello World</Button>
   );
 }
 
