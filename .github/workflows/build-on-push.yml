@@ -3,7 +3,8 @@ name: Build React app
 on:
   push:
     branches:
-      - development
+      - '*'
+      - '!main'
 
 jobs:
   build:
